@@ -2,11 +2,11 @@
 
 > **Universal Hardware Access for Web Applications**
 
-Bring USB, Serial, and Bluetooth device support to **Chrome and Firefox** through a powerful browser extension and native bridge combination. WebHW (Device for All Browsers) enables web applications to access local hardware devices on Windows, macOS, and Linux, extending beyond Chromium's native WebUSB/WebSerial support to Firefox and older browsers.
+Bring USB, Serial, and Bluetooth device support to **Chrome and Firefox** through a powerful browser extension and native bridge combination. WebHW (Device for All Browsers) enables web applications to access local hardware devices on Windows, macOS, and Linux, filling in the device APIs that a browser lacks natively, for Firefox and older browsers.
 
 ## 🎯 **What This Solves**
 
-Currently, browser-based device APIs like WebUSB and Web Serial are only supported by Chromium-based browsers. This project provides:
+WebUSB and Web Bluetooth are only supported natively by Chromium-based browsers. Web Serial is too, with one exception: Firefox has supported it natively since version 151 (desktop only). This project provides:
 
 - ✅ **Multi-Browser Support**: USB, Serial, and Bluetooth APIs work in Chrome, Firefox, and Edge
 - 🔒 **Secure Hardware Access**: Origin-based permissions with multi-layered security
@@ -547,4 +547,4 @@ MIT License - see [LICENSE](LICENSE) for details.
 
 **Ready to bridge the gap between web and hardware?** 🌉
 
-For support, visit [GitHub Issues](https://github.com/beriberikix/webhw/issues) or join our [Discord community](https://discord.gg/webhw).
+For support, visit [GitHub Issues](https://github.com/beriberikix/webhw/issues).
